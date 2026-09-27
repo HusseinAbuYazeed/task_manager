@@ -29,5 +29,5 @@ class Validator:
             password = password.strip()
     
             if len(password) < 6:
-                return "it should be 3 or more"
+                return "it should be 6 or more"
             return True
